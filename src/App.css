@@ -1,0 +1,15 @@
+
+
+.employee-card {
+  width: 50%; /* smaller than full width */
+  /* ms-auto in JSX will push it fully to right */
+}
+.light-green-btn{
+    background-color:#7cfc00;
+    color:white;
+    border:none;
+}
+
+.light-green-btn:hover{
+    background-color:#76eb01;
+}
