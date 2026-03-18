@@ -30,7 +30,7 @@ const EmployeeAdd = () => {
   try{
 
     const response = await axios.post(
-      "http://localhost:8080/save",
+        "https://employee-api.up.railway.app/save",
       employee
     );
 

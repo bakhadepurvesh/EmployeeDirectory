@@ -11,7 +11,7 @@ const DeleteEmployee = () => {
     try{
    
     const response = await axios.delete(
-      `http://localhost:8080/delete/${empid}`
+      `https://employee-api.up.railway.app/delete/${empid}`
     );
 
     setMessage(response.data);

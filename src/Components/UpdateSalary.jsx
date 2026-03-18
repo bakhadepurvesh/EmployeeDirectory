@@ -19,7 +19,7 @@ const UpdateSalary = () => {
         const employeeData = {empsalary};
 
         const response = await axios.put(
-          `http://localhost:8080/update/${empid}`,
+          `https://employee-api.up.railway.app/update/${empid}`,
           employeeData
         );
 

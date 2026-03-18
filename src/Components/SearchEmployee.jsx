@@ -15,7 +15,7 @@ const SearchEmployee = () => {
 
     try {
       const response = await axios.get(
-        `http://localhost:8080/find/${empname}`
+       `https://employee-api.up.railway.app/find/${empname}`
       );
 
       if (response.data && Object.keys(response.data).length > 0) {

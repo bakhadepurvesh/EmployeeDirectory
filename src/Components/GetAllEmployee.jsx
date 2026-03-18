@@ -9,7 +9,7 @@ const GetAllEmployee = () => {
     const getAllEmployees = async () =>{
 
         try{
-            const response = await axios.get("http://localhost:8080/getAllEmployee");
+            const response = await axios.get("https://employee-api.up.railway.app/getAllEmployee");
             setEmployees(response.data);
             setShowTable(true);
         }
